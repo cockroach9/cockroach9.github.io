@@ -1,29 +1,34 @@
 # Welcome to Jekyll!
-#
+#    EN-UK
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
+#    CH-ZH
+# 此配置文件用于影响整个博客值的设置
+# 只需要设置一次，之后很少需要编辑。
+# 由于技术原因，这个文件在您使用时“没有”自动重新加载
+# 'jekyll serve'如果更改此文件，请重新启动服务器进程。
 
 # Site settings
-title: 徐代龙的技术专栏
-brief-intro: Android and Python Coder
+title: 叶普生的技术专栏
+brief-intro: web add nodejs
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://643435675.github.io" # the base hostname & protocol for your site
+url: "https://cockroach.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
 twitter_username: #gaohaoyang126
 facebook_username: #gaohaoyang.water
-github_username:  643435675
-email: 643435675@QQ.com
-weibo_username: 3115521wh
-zhihu_username: hll643435675
-linkedIn_username: gaohaoyang
+github_username:  cockroach
+email: y970822@163.com
+weibo_username: 7146608833
+zhihu_username: #none
+linkedIn_username: #none
 dribbble_username:
 
-description_footer: 来自徐代龙的个人专栏！
+description_footer: 来自叶普生的个人专栏！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
@@ -57,5 +62,5 @@ excerpt_separator: "\n\n\n\n"
 
 # paginate
 plugins: [jekyll-paginate]
-paginate: 6
-port: 4001
+paginate: 6  # 每页显示6篇文章
+port: 4001   # jekyll启动端口号
